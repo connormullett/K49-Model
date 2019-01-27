@@ -15,15 +15,6 @@ y_test = np.load('data/k49-test-labels.npz')['arr_0']
 classifications = 49
 # -----
 
-# # -- basic kmnist dataset -- 10 classifications
-# x_train = np.load('data/kmnist-train-imgs.npz')['arr_0']
-# y_train = np.load('data/kmnist-train-labels.npz')['arr_0']
-
-# x_test = np.load('data/kmnist-test-imgs.npz')['arr_0']
-# y_test = np.load('data/kmnist-test-labels.npz')['arr_0']
-# classifications = 10
-# # -----
-
 # -- train data format
 img_rows, img_cols = 28, 28
 input_shape = (img_rows, img_cols, 1)
